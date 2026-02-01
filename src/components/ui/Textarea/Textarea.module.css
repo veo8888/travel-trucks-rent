@@ -1,0 +1,21 @@
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.textarea {
+    padding: 10px 12px;
+    border: 1px solid #dadde1;
+    border-radius: 6px;
+    font-size: 14px;
+    resize: vertical;
+    min-height: 100px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}

@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  gap: 4px;
+}
+
+.filled {
+  color: #ffc107;
+  font-size: 18px;
+}
+
+.empty {
+  color: #e4e5e9;
+  font-size: 18px;
+}

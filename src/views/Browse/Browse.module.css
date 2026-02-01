@@ -1,0 +1,28 @@
+.pageLayout {
+  display: flex;
+  gap: 80px;
+  padding: 40px 0;
+  align-items: flex-start;
+}
+
+.sidebar {
+  flex: 0 0 360px;
+}
+
+.content {
+  flex: 1;
+}
+
+.content > * {
+  margin-bottom: 32px;
+}
+
+.content > *:last-child {
+  margin-bottom: 0;
+}
+
+.pageTitle {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}

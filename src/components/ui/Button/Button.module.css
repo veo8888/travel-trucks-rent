@@ -1,0 +1,36 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    border-radius: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
+    gap: 10px;
+}
+
+.primary {
+    background-color: #e44848;
+    color: #fff;
+    border: none;
+    padding: 16px 60px;
+    border-radius: 200px;
+    height: 56px;
+}
+
+.primary:hover {
+    background-color: #d03737;
+}
+
+.secondary {
+    background-color: #fff;
+    color: #111;
+    border: 1px solid #dadde1;
+    padding: 16px 32px;
+}
+
+.secondary:hover {
+    background-color: #f7f7f7;
+}

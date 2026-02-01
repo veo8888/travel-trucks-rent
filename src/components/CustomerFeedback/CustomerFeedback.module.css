@@ -1,0 +1,40 @@
+.feedbackContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.feedbackItem {
+  border-bottom: 1px solid #dadde1;
+  padding-bottom: 16px;
+}
+
+.feedbackHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.userAvatar {
+  width: 40px;
+  height: 40px;
+  background-color: #e44848;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.userName {
+  font-weight: 600;
+  margin: 0;
+}
+
+.feedbackText {
+  font-size: 14px;
+  color: #475467;
+}
